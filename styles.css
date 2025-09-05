@@ -190,14 +190,20 @@
     border: 1px solid var(--border-color);
     border-radius: 8px;
     text-decoration: none;
-    font-size: 1.2rem;
     transition: all 0.3s ease;
+    color: var(--text-secondary);
+  }
+  
+  .social-icon svg {
+    width: 24px;
+    height: 24px;
   }
   
   .social-icon:hover {
     transform: translateY(-2px);
     border-color: var(--accent-green);
     background: var(--accent-green-dim);
+    color: var(--accent-green);
   }
   
   /* About Section */
@@ -502,4 +508,4 @@
     .packages-grid {
       grid-template-columns: 1fr;
     }
-  }   
+  }
